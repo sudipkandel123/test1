@@ -5,7 +5,27 @@
 //  Created by Sudip on 12/4/18.
 //  Copyright © 2018 Sudeepasa. All rights reserved.
 //
-
+/*The task is -
+ 
+ Github provides APIs to fetch for public repositories,
+ 
+ For repo details: http://api.github.com/repos/{Org_Name}/{Repo_Name} example : - http://api.github.com/repos/Alamofire/Alamofire
+ 
+ For getting open issues - http://api.github.com/repos/{Org_Name}/{Repo_Name}/issues?state=open
+ For getting close issues - http://api.github.com/repos/{Org_Name}/{Repo_Name}/issues?state=close
+ 
+ First Screen - There should be a screen where you can enter Organization name and repo name, with a submit button
+ 
+ Repository Detail Screen - After submit there should be a next screen with the details of the repo, including - User name, user Image, Description, Open Issues, Closed Issues,Reposetory Language. There will be two buttons saying “Open Issues“ & “Closed Issues”
+ 
+ Repository Issues Screen (Open/Closed) - There should be a table view with two line description of all the issues,  with user image, name, issue title, issue description (two line max).
+ 
+ Plus Points -
+ 1. If you use latest version of Swift.
+ 2. Your code is testable and follows an architecture.
+ 3. Your app does not have too many dependencies on third party frameworks.
+ 4. Includes UI & Unit test cases.
+*/
 import UIKit
 
 @UIApplicationMain

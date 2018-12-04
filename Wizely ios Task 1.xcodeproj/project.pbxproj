@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		682A2DB421B6AF38001C7D36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682A2DB321B6AF38001C7D36 /* AppDelegate.swift */; };
-		682A2DB621B6AF38001C7D36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682A2DB521B6AF38001C7D36 /* ViewController.swift */; };
+		682A2DB621B6AF38001C7D36 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682A2DB521B6AF38001C7D36 /* FirstVC.swift */; };
 		682A2DB921B6AF38001C7D36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 682A2DB721B6AF38001C7D36 /* Main.storyboard */; };
 		682A2DBB21B6AF3A001C7D36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 682A2DBA21B6AF3A001C7D36 /* Assets.xcassets */; };
 		682A2DBE21B6AF3A001C7D36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 682A2DBC21B6AF3A001C7D36 /* LaunchScreen.storyboard */; };
 		682A2DC921B6AF3A001C7D36 /* Wizely_ios_Task_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682A2DC821B6AF3A001C7D36 /* Wizely_ios_Task_1Tests.swift */; };
 		682A2DD421B6AF3A001C7D36 /* Wizely_ios_Task_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682A2DD321B6AF3A001C7D36 /* Wizely_ios_Task_1UITests.swift */; };
+		68C3467821B6C8480025A8B9 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C3467721B6C8480025A8B9 /* SecondVC.swift */; };
+		68C3467B21B6DD7A0025A8B9 /* JSONfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C3467A21B6DD7A0025A8B9 /* JSONfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		682A2DB021B6AF38001C7D36 /* Wizely ios Task 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wizely ios Task 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		682A2DB321B6AF38001C7D36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		682A2DB521B6AF38001C7D36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		682A2DB521B6AF38001C7D36 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
 		682A2DB821B6AF38001C7D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		682A2DBA21B6AF3A001C7D36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		682A2DBD21B6AF3A001C7D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		682A2DCF21B6AF3A001C7D36 /* Wizely ios Task 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wizely ios Task 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		682A2DD321B6AF3A001C7D36 /* Wizely_ios_Task_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wizely_ios_Task_1UITests.swift; sourceTree = "<group>"; };
 		682A2DD521B6AF3A001C7D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68C3467721B6C8480025A8B9 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		68C3467A21B6DD7A0025A8B9 /* JSONfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,11 @@
 		682A2DB221B6AF38001C7D36 /* Wizely ios Task 1 */ = {
 			isa = PBXGroup;
 			children = (
+				682A2DE521B6AF8E001C7D36 /* Supporting Files */,
+				682A2DE321B6AF50001C7D36 /* Model */,
+				682A2DE121B6AF45001C7D36 /* View */,
+				682A2DE421B6AF67001C7D36 /* Controller */,
 				682A2DB321B6AF38001C7D36 /* AppDelegate.swift */,
-				682A2DB521B6AF38001C7D36 /* ViewController.swift */,
 				682A2DB721B6AF38001C7D36 /* Main.storyboard */,
 				682A2DBA21B6AF3A001C7D36 /* Assets.xcassets */,
 				682A2DBC21B6AF3A001C7D36 /* LaunchScreen.storyboard */,
@@ -123,6 +130,37 @@
 				682A2DD521B6AF3A001C7D36 /* Info.plist */,
 			);
 			path = "Wizely ios Task 1UITests";
+			sourceTree = "<group>";
+		};
+		682A2DE121B6AF45001C7D36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				682A2DB521B6AF38001C7D36 /* FirstVC.swift */,
+				68C3467721B6C8480025A8B9 /* SecondVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		682A2DE321B6AF50001C7D36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				68C3467A21B6DD7A0025A8B9 /* JSONfile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		682A2DE421B6AF67001C7D36 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		682A2DE521B6AF8E001C7D36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +294,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				682A2DB621B6AF38001C7D36 /* ViewController.swift in Sources */,
+				68C3467821B6C8480025A8B9 /* SecondVC.swift in Sources */,
+				682A2DB621B6AF38001C7D36 /* FirstVC.swift in Sources */,
 				682A2DB421B6AF38001C7D36 /* AppDelegate.swift in Sources */,
+				68C3467B21B6DD7A0025A8B9 /* JSONfile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
