@@ -258,10 +258,10 @@
             </objects>
             <point key="canvasLocation" x="1837.5999999999999" y="122.78860569715144"/>
         </scene>
-        <!--View Controller-->
+        <!--Table View Controller-->
         <scene sceneID="2gz-fB-kgu">
             <objects>
-                <viewController id="fZR-34-bf7" sceneMemberID="viewController">
+                <viewController id="fZR-34-bf7" customClass="TableViewController" customModule="Wizely_ios_Task_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="maI-dH-i1E">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -271,7 +271,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="458" id="0rZ-iP-aat" customClass="gitTV" customModule="Wizely_ios_Task_1" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="458" id="0rZ-iP-aat" customClass="gitTV" customModule="Wizely_ios_Task_1" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="458"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0rZ-iP-aat" id="IdL-5I-ep3">
@@ -365,6 +365,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="LWX-f2-UFK"/>
                     </view>
+                    <connections>
+                        <outlet property="tableViewCell" destination="Rs1-cd-ab5" id="ngi-NG-aEj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OOO-TQ-jSu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

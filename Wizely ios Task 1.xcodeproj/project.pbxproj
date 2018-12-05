@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17EB985335074986268BC79D /* Pods_Wizely_ios_Task_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B369ABE8C33E886FA5042F /* Pods_Wizely_ios_Task_1.framework */; };
+		563AE87AB1B7933188E087A3 /* Pods_Wizely_ios_Task_1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757A1BA1E93DEA80DA680A4E /* Pods_Wizely_ios_Task_1Tests.framework */; };
+		5CFE529FF9BFF293C9B2D266 /* Pods_Wizely_ios_Task_1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FE3BE3D8DE898EFAF6E431 /* Pods_Wizely_ios_Task_1UITests.framework */; };
 		682A2DB421B6AF38001C7D36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682A2DB321B6AF38001C7D36 /* AppDelegate.swift */; };
 		682A2DB621B6AF38001C7D36 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682A2DB521B6AF38001C7D36 /* FirstVC.swift */; };
 		682A2DB921B6AF38001C7D36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 682A2DB721B6AF38001C7D36 /* Main.storyboard */; };
@@ -14,8 +17,9 @@
 		682A2DBE21B6AF3A001C7D36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 682A2DBC21B6AF3A001C7D36 /* LaunchScreen.storyboard */; };
 		682A2DC921B6AF3A001C7D36 /* Wizely_ios_Task_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682A2DC821B6AF3A001C7D36 /* Wizely_ios_Task_1Tests.swift */; };
 		682A2DD421B6AF3A001C7D36 /* Wizely_ios_Task_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682A2DD321B6AF3A001C7D36 /* Wizely_ios_Task_1UITests.swift */; };
+		683FCBEC21B822C40065B1EB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683FCBEB21B822C40065B1EB /* TableViewController.swift */; };
+		683FCBEE21B835A20065B1EB /* gitTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683FCBED21B835A20065B1EB /* gitTV.swift */; };
 		68406D9321B7A0D0008E95A4 /* Data .swift in Sources */ = {isa = PBXBuildFile; fileRef = 68406D9221B7A0D0008E95A4 /* Data .swift */; };
-		68406D9721B7BA97008E95A4 /* gitTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68406D9621B7BA97008E95A4 /* gitTV.swift */; };
 		68C3467821B6C8480025A8B9 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C3467721B6C8480025A8B9 /* SecondVC.swift */; };
 		68C3467B21B6DD7A0025A8B9 /* JSONfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C3467A21B6DD7A0025A8B9 /* JSONfile.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		397C0E1BB1110E4E573F1AA6 /* Pods-Wizely ios Task 1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wizely ios Task 1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wizely ios Task 1Tests/Pods-Wizely ios Task 1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		42D49146F119201D7159741C /* Pods-Wizely ios Task 1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wizely ios Task 1UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wizely ios Task 1UITests/Pods-Wizely ios Task 1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		52FE3BE3D8DE898EFAF6E431 /* Pods_Wizely_ios_Task_1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wizely_ios_Task_1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B369ABE8C33E886FA5042F /* Pods_Wizely_ios_Task_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wizely_ios_Task_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		682A2DB021B6AF38001C7D36 /* Wizely ios Task 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wizely ios Task 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		682A2DB321B6AF38001C7D36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		682A2DB521B6AF38001C7D36 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
@@ -51,10 +59,16 @@
 		682A2DCF21B6AF3A001C7D36 /* Wizely ios Task 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wizely ios Task 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		682A2DD321B6AF3A001C7D36 /* Wizely_ios_Task_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wizely_ios_Task_1UITests.swift; sourceTree = "<group>"; };
 		682A2DD521B6AF3A001C7D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		683FCBEB21B822C40065B1EB /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		683FCBED21B835A20065B1EB /* gitTV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gitTV.swift; sourceTree = "<group>"; };
 		68406D9221B7A0D0008E95A4 /* Data .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data .swift"; sourceTree = "<group>"; };
-		68406D9621B7BA97008E95A4 /* gitTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitTV.swift; sourceTree = "<group>"; };
 		68C3467721B6C8480025A8B9 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 		68C3467A21B6DD7A0025A8B9 /* JSONfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONfile.swift; sourceTree = "<group>"; };
+		757A1BA1E93DEA80DA680A4E /* Pods_Wizely_ios_Task_1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wizely_ios_Task_1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E333D8307A9169E5DC04E7 /* Pods-Wizely ios Task 1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wizely ios Task 1.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wizely ios Task 1/Pods-Wizely ios Task 1.release.xcconfig"; sourceTree = "<group>"; };
+		8579F4C6F113D5476CF637FD /* Pods-Wizely ios Task 1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wizely ios Task 1UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wizely ios Task 1UITests/Pods-Wizely ios Task 1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		C498C234C7CD0838BD2B6EEF /* Pods-Wizely ios Task 1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wizely ios Task 1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wizely ios Task 1/Pods-Wizely ios Task 1.debug.xcconfig"; sourceTree = "<group>"; };
+		C4A5B5EBA78A99543F3F2292 /* Pods-Wizely ios Task 1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wizely ios Task 1Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wizely ios Task 1Tests/Pods-Wizely ios Task 1Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17EB985335074986268BC79D /* Pods_Wizely_ios_Task_1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				563AE87AB1B7933188E087A3 /* Pods_Wizely_ios_Task_1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CFE529FF9BFF293C9B2D266 /* Pods_Wizely_ios_Task_1UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +106,8 @@
 				682A2DC721B6AF3A001C7D36 /* Wizely ios Task 1Tests */,
 				682A2DD221B6AF3A001C7D36 /* Wizely ios Task 1UITests */,
 				682A2DB121B6AF38001C7D36 /* Products */,
+				7444F9F87A863332FDFDE4DF /* Frameworks */,
+				D28D3ABBAFFABD60BBE64D98 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,7 +159,7 @@
 		682A2DE121B6AF45001C7D36 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				68406D9621B7BA97008E95A4 /* gitTV.swift */,
+				683FCBED21B835A20065B1EB /* gitTV.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -158,6 +177,7 @@
 			children = (
 				682A2DB521B6AF38001C7D36 /* FirstVC.swift */,
 				68C3467721B6C8480025A8B9 /* SecondVC.swift */,
+				683FCBEB21B822C40065B1EB /* TableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -177,6 +197,29 @@
 			path = "Data Service";
 			sourceTree = "<group>";
 		};
+		7444F9F87A863332FDFDE4DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53B369ABE8C33E886FA5042F /* Pods_Wizely_ios_Task_1.framework */,
+				757A1BA1E93DEA80DA680A4E /* Pods_Wizely_ios_Task_1Tests.framework */,
+				52FE3BE3D8DE898EFAF6E431 /* Pods_Wizely_ios_Task_1UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D28D3ABBAFFABD60BBE64D98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C498C234C7CD0838BD2B6EEF /* Pods-Wizely ios Task 1.debug.xcconfig */,
+				78E333D8307A9169E5DC04E7 /* Pods-Wizely ios Task 1.release.xcconfig */,
+				C4A5B5EBA78A99543F3F2292 /* Pods-Wizely ios Task 1Tests.debug.xcconfig */,
+				397C0E1BB1110E4E573F1AA6 /* Pods-Wizely ios Task 1Tests.release.xcconfig */,
+				42D49146F119201D7159741C /* Pods-Wizely ios Task 1UITests.debug.xcconfig */,
+				8579F4C6F113D5476CF637FD /* Pods-Wizely ios Task 1UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -184,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 682A2DD821B6AF3A001C7D36 /* Build configuration list for PBXNativeTarget "Wizely ios Task 1" */;
 			buildPhases = (
+				AB469BDAE80D1DEA66FF9D8C /* [CP] Check Pods Manifest.lock */,
 				682A2DAC21B6AF38001C7D36 /* Sources */,
 				682A2DAD21B6AF38001C7D36 /* Frameworks */,
 				682A2DAE21B6AF38001C7D36 /* Resources */,
@@ -201,6 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 682A2DDB21B6AF3A001C7D36 /* Build configuration list for PBXNativeTarget "Wizely ios Task 1Tests" */;
 			buildPhases = (
+				C6D08B0028E302FD66B42157 /* [CP] Check Pods Manifest.lock */,
 				682A2DC021B6AF3A001C7D36 /* Sources */,
 				682A2DC121B6AF3A001C7D36 /* Frameworks */,
 				682A2DC221B6AF3A001C7D36 /* Resources */,
@@ -219,6 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 682A2DDE21B6AF3A001C7D36 /* Build configuration list for PBXNativeTarget "Wizely ios Task 1UITests" */;
 			buildPhases = (
+				8A2B414A7432217A21BCECF0 /* [CP] Check Pods Manifest.lock */,
 				682A2DCB21B6AF3A001C7D36 /* Sources */,
 				682A2DCC21B6AF3A001C7D36 /* Frameworks */,
 				682A2DCD21B6AF3A001C7D36 /* Resources */,
@@ -303,14 +349,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8A2B414A7432217A21BCECF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wizely ios Task 1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB469BDAE80D1DEA66FF9D8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wizely ios Task 1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6D08B0028E302FD66B42157 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wizely ios Task 1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		682A2DAC21B6AF38001C7D36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				68C3467821B6C8480025A8B9 /* SecondVC.swift in Sources */,
+				683FCBEC21B822C40065B1EB /* TableViewController.swift in Sources */,
 				682A2DB621B6AF38001C7D36 /* FirstVC.swift in Sources */,
-				68406D9721B7BA97008E95A4 /* gitTV.swift in Sources */,
+				683FCBEE21B835A20065B1EB /* gitTV.swift in Sources */,
 				68406D9321B7A0D0008E95A4 /* Data .swift in Sources */,
 				682A2DB421B6AF38001C7D36 /* AppDelegate.swift in Sources */,
 				68C3467B21B6DD7A0025A8B9 /* JSONfile.swift in Sources */,
@@ -486,6 +602,7 @@
 		};
 		682A2DD921B6AF3A001C7D36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C498C234C7CD0838BD2B6EEF /* Pods-Wizely ios Task 1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +621,7 @@
 		};
 		682A2DDA21B6AF3A001C7D36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78E333D8307A9169E5DC04E7 /* Pods-Wizely ios Task 1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +640,7 @@
 		};
 		682A2DDC21B6AF3A001C7D36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A5B5EBA78A99543F3F2292 /* Pods-Wizely ios Task 1Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -543,6 +662,7 @@
 		};
 		682A2DDD21B6AF3A001C7D36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 397C0E1BB1110E4E573F1AA6 /* Pods-Wizely ios Task 1Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -564,6 +684,7 @@
 		};
 		682A2DDF21B6AF3A001C7D36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42D49146F119201D7159741C /* Pods-Wizely ios Task 1UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -584,6 +705,7 @@
 		};
 		682A2DE021B6AF3A001C7D36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8579F4C6F113D5476CF637FD /* Pods-Wizely ios Task 1UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

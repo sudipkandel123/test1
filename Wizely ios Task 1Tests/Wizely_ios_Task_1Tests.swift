@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import Wizely_ios_Task_1
 
 class Wizely_ios_Task_1Tests: XCTestCase {
 
