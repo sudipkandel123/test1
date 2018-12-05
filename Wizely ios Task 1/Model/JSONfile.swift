@@ -7,17 +7,18 @@
 //
 
 //import Foundation
-//class JSONparse{
+//
+//}
 //struct JSONfile{
 //    let userName : String
 //    let description : String
 //    let userImage : String
 //    init(userName : String , description : String , userImage : String) {
-//        this.userName = userName
-//        this.description = description
-//        this.userImage = userImage
+//        self.userName = userName
+//        self.description = description
+//        self.userImage = userImage
 //    }
 //    }
-//    
-//}
 //
+
+

@@ -14,6 +14,8 @@
 		682A2DBE21B6AF3A001C7D36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 682A2DBC21B6AF3A001C7D36 /* LaunchScreen.storyboard */; };
 		682A2DC921B6AF3A001C7D36 /* Wizely_ios_Task_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682A2DC821B6AF3A001C7D36 /* Wizely_ios_Task_1Tests.swift */; };
 		682A2DD421B6AF3A001C7D36 /* Wizely_ios_Task_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682A2DD321B6AF3A001C7D36 /* Wizely_ios_Task_1UITests.swift */; };
+		68406D9321B7A0D0008E95A4 /* Data .swift in Sources */ = {isa = PBXBuildFile; fileRef = 68406D9221B7A0D0008E95A4 /* Data .swift */; };
+		68406D9721B7BA97008E95A4 /* gitTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68406D9621B7BA97008E95A4 /* gitTV.swift */; };
 		68C3467821B6C8480025A8B9 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C3467721B6C8480025A8B9 /* SecondVC.swift */; };
 		68C3467B21B6DD7A0025A8B9 /* JSONfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C3467A21B6DD7A0025A8B9 /* JSONfile.swift */; };
 /* End PBXBuildFile section */
@@ -49,6 +51,8 @@
 		682A2DCF21B6AF3A001C7D36 /* Wizely ios Task 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wizely ios Task 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		682A2DD321B6AF3A001C7D36 /* Wizely_ios_Task_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wizely_ios_Task_1UITests.swift; sourceTree = "<group>"; };
 		682A2DD521B6AF3A001C7D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68406D9221B7A0D0008E95A4 /* Data .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data .swift"; sourceTree = "<group>"; };
+		68406D9621B7BA97008E95A4 /* gitTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitTV.swift; sourceTree = "<group>"; };
 		68C3467721B6C8480025A8B9 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 		68C3467A21B6DD7A0025A8B9 /* JSONfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +105,7 @@
 		682A2DB221B6AF38001C7D36 /* Wizely ios Task 1 */ = {
 			isa = PBXGroup;
 			children = (
+				68406D9121B7A0B7008E95A4 /* Data Service */,
 				682A2DE521B6AF8E001C7D36 /* Supporting Files */,
 				682A2DE321B6AF50001C7D36 /* Model */,
 				682A2DE121B6AF45001C7D36 /* View */,
@@ -135,8 +140,7 @@
 		682A2DE121B6AF45001C7D36 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				682A2DB521B6AF38001C7D36 /* FirstVC.swift */,
-				68C3467721B6C8480025A8B9 /* SecondVC.swift */,
+				68406D9621B7BA97008E95A4 /* gitTV.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -152,6 +156,8 @@
 		682A2DE421B6AF67001C7D36 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				682A2DB521B6AF38001C7D36 /* FirstVC.swift */,
+				68C3467721B6C8480025A8B9 /* SecondVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -161,6 +167,14 @@
 			children = (
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68406D9121B7A0B7008E95A4 /* Data Service */ = {
+			isa = PBXGroup;
+			children = (
+				68406D9221B7A0D0008E95A4 /* Data .swift */,
+			);
+			path = "Data Service";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +310,8 @@
 			files = (
 				68C3467821B6C8480025A8B9 /* SecondVC.swift in Sources */,
 				682A2DB621B6AF38001C7D36 /* FirstVC.swift in Sources */,
+				68406D9721B7BA97008E95A4 /* gitTV.swift in Sources */,
+				68406D9321B7A0D0008E95A4 /* Data .swift in Sources */,
 				682A2DB421B6AF38001C7D36 /* AppDelegate.swift in Sources */,
 				68C3467B21B6DD7A0025A8B9 /* JSONfile.swift in Sources */,
 			);

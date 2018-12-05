@@ -124,7 +124,7 @@
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QlF-yl-Vss">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="abc" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QlF-yl-Vss">
                                 <rect key="frame" x="0.0" y="207.66666666666666" width="375" height="72.999999999999972"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -149,6 +149,9 @@
                                             <color key="titleColor" red="1" green="0.0" blue="0.39118321859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="titleShadowColor" red="0.59286996339999998" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="openIssueButton:" destination="GKX-KI-uHP" eventType="touchUpInside" id="wPC-b1-D2Q"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QYr-vt-gS2">
                                         <rect key="frame" x="226" y="8" width="141" height="92"/>
@@ -160,6 +163,9 @@
                                             <color key="titleColor" red="1" green="0.0" blue="0.39118321859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="titleShadowColor" red="0.59286996339999998" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="closedIssueButton:" destination="GKX-KI-uHP" eventType="touchUpInside" id="5G3-0S-s6A"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -245,7 +251,7 @@
                         <outlet property="descTextView" destination="fpv-X8-C76" id="dss-iW-uny"/>
                         <outlet property="userImage" destination="lGv-dR-WzO" id="pAy-XM-jkz"/>
                         <outlet property="userNameTextField" destination="QlF-yl-Vss" id="wOr-dW-uEh"/>
-                        <segue destination="fZR-34-bf7" kind="show" id="03U-2o-TZ4"/>
+                        <segue destination="fZR-34-bf7" kind="show" identifier="goToTableView" id="03U-2o-TZ4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gpR-mw-V0Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -265,7 +271,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="458" id="0rZ-iP-aat">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="458" id="0rZ-iP-aat" customClass="gitTV" customModule="Wizely_ios_Task_1" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="458"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0rZ-iP-aat" id="IdL-5I-ep3">
@@ -346,6 +352,12 @@
                                                 <constraint firstItem="y7s-DN-Hxe" firstAttribute="leading" secondItem="IdL-5I-ep3" secondAttribute="leadingMargin" id="xhN-l6-qDg"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="issue" destination="0rp-IQ-BVt" id="kYq-cJ-dnr"/>
+                                            <outlet property="issueDesc" destination="9NX-q0-JUh" id="D1b-ad-ucJ"/>
+                                            <outlet property="issueTitle" destination="cMT-x0-DGC" id="Cj5-AJ-NjY"/>
+                                            <outlet property="userImage" destination="Tly-5H-VQ6" id="1B3-Xo-Nnb"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
